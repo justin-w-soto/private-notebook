@@ -11,6 +11,8 @@ import EditNote from './views/Notebook/EditNote';
 import Header from './components/Layout/Header';
 import styles from './App.css';
 
+
+
 export default function App() {
   return (
     <UserProvider>
