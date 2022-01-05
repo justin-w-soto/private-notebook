@@ -8,7 +8,7 @@ export default function PrivateRoute({ children, ...rest }) {
   const { user } = useUser();
   const location = useLocation();
 
-  if(user.id) {
+  if(user?.id) {
     return <Route {...rest}>{children}</Route>
   }
 
